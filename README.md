@@ -22,7 +22,6 @@ The solution covers:
 ![Architecture Diagram](<Captura de tela 2026-01-20 123843.png>)
 
 **Azure Event Hubs**
-
 Purpose: Real-time data ingestion
 
 Role in project:
