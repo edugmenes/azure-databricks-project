@@ -1,8 +1,8 @@
-# Azure Databricks - Data Engineering Project
+# End-to-End Azure Data Engineering
 
-This repository contains my **first end-to-end Data Engineering project**, built using **Microsoft Azure Cloud** and **Azure Databricks** with **PySpark**.
+This repository contains my **first Data Engineering project**, built using **Microsoft Azure Cloud** and **Azure Databricks**.
 
-The project focuses on designing and implementing **ETL pipelines** following the **Medallion Architecture (Bronze, Silver, Gold)**, a modern and widely adopted pattern for building scalable and reliable data platforms.
+The project focuses on designing and implementing **ETL pipelines** using **PySpark** following the **Medallion Architecture (Bronze, Silver, Gold)**, a modern and widely adopted pattern for building scalable and reliable data platforms.
 
 
 
