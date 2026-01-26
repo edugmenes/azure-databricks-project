@@ -80,21 +80,21 @@ The project is structured using a **Medallion Architecture**
     │
     └── projet1/
         ├── resources/                  # Source and target data
-        │   ├── source/                 # CSV/Parquet files received from the source
-        │   └── target/                 # Exports (CSV, Excel, Parquet) for customers
+        │   ├── source/                 # CSV files received from the source
+        │   └── target/                 # Exports files for customers
         │
         ├── 01-bronze/                  # Raw data
         │   ├── customers/
-        │   │   └── customers.pq
+        │   │   └── customers.parquet
         │   ├── sales/
-        │   │   └── sales.pq
+        │   │   └── sales.parquet
         │   ...
         │    
         ├── 02-silver/                  # Clean data
         │   ├── customers/
-        │   │   └── customers.pq
+        │   │   └── customers.parquet
         │   ├── sales/
-        │   │   └── sales.pq
+        │   │   └── sales.parquet
         │   ...
         │
         ├── 03-gold/                    # Aggregated data
